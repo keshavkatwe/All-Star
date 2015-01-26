@@ -1,0 +1,55 @@
+/* line 2, ../sass/theme.scss */
+body {
+  background-color: #2c3e50;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* line 9, ../sass/theme.scss */
+.navbar {
+  border-radius: 0px;
+  border: 0px;
+  min-height: 75px;
+  margin-bottom: 0px;
+}
+
+/* line 17, ../sass/theme.scss */
+.navbar-default {
+  background-color: #2c3e50;
+  border-bottom: 1px solid #777777;
+}
+/* line 21, ../sass/theme.scss */
+.navbar-default .navbar-brand {
+  height: 75px;
+  line-height: 75px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  color: #bdc3c7;
+}
+/* line 30, ../sass/theme.scss */
+.navbar-default .navbar-nav {
+  font-size: 16px;
+}
+/* line 33, ../sass/theme.scss */
+.navbar-default .navbar-nav > li > a {
+  color: #bdc3c7;
+  height: 75px;
+  line-height: 75px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+/* line 41, ../sass/theme.scss */
+.navbar-default .navbar-nav > li.active > a {
+  background: #34495e;
+  color: #bdc3c7;
+}
+
+/* line 56, ../sass/theme.scss */
+.main-content {
+  background-color: #ecf0f1;
+  min-height: 80vh;
+}
+
+/* line 62, ../sass/theme.scss */
+hr {
+  border-top: 1px solid #C2C2C2;
+}
