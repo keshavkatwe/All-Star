@@ -16,10 +16,9 @@
         <div class="form-group">
             <label>Field Type</label>
             <select class="form-control" name="field-type[<?php echo $index;?>]">
-                <option>Text</option>
-                <option>Paragraph</option>
-                <option>Dropdown</option>
-                <option>Multi Choice</option>
+                <option value="text">Text</option>
+                <option value="paragraph">Paragraph</option>
+                <option value="dropdown">Dropdown</option>
             </select>
         </div>
     </div>

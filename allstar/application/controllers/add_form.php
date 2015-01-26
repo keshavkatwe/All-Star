@@ -94,8 +94,7 @@ class Add_form extends CI_Controller {
             $this->db->insert_batch('_schema', $schema_data); 
             $field_id = $this->db->insert_id();
             
-            
-            var_dump($this->input->post());
+            redirect(base_url());
         }
     }
 

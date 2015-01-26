@@ -14,10 +14,7 @@
 
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-3 left-menu">
-                    <?php $this->load->view('includes/left_menu') ?>
-                </div>
-                <div class="col-md-9 main-content">
+                <div class="col-md-12 main-content">
                     <form method="post">
                         <h3>Add Form</h3>
                         <hr/>

@@ -14,20 +14,19 @@
 
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-3 left-menu">
-                    <?php $this->load->view('includes/left_menu')?>
-                </div>
-                <div class="col-md-9 main-content">
+                <div class="col-md-12 main-content">
                     <div class="text-center">   
                         <h1>Welcome to All Star</h1>
                     </div>
                     <br/><br/><br/>
 
-                    <div class="row">
+                    <div class="row text-center">
+                        <a class="btn btn-primary" href="<?php echo base_url('add_form')?>">Add Form</a><br/><br/>
                         <div class="col-md-offset-4 col-md-4 text-center">
                             <?php 
                                 foreach ($forms as $value) {
                                     echo '<a class="btn btn-primary" href="'.  base_url('view_form/'.$value['form_id']).'">'.$value['form_name'].'</a>';
+                                    echo '<br/><br/>';
                                 }
                             ?>
                             

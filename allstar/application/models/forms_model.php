@@ -29,4 +29,18 @@ class forms_model extends CI_Model{
         $query = $this->db->get('_schema');
         return $query->result_array();
     }
+    
+    
+    public function insert_record($data, $table) {
+        $this->db->insert($table, $data); 
+        return $this->db->insert_id();
+    }
+    
+    
+    public function get_records($table) {
+        $query = $this->db->get($table);
+        return $query->result_array();
+    }
+    
+
 }
